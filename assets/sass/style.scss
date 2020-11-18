@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.welcome-screen,.question-screen, .end-screen{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url(../img/background.jpg);
+    background-position: cover;
+    background-position-x: center;
+    background-position-y:-10rem ;
+    font-size: 1.5rem;
+}
+
+.welcome-screen{
+    flex-direction: column;
+}
+
+.question-screen, .end-screen{
+    display: none;
+}
+button{
+    background: #d66800;
+    border: #d66800 2px solid;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 700;
+}
+ul li{
+    list-style: none;
+}
+h1, h2, h3{
+    font-size: 2.5rem;
+}
+
